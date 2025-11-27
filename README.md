@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-# SecurityLogAnalyzer
-专业的网络安全日志分析工具，支持 Windows (.evtx) 和 Linux (syslog) 格式，采用混合检测策略（静态规则 + 动态基线建模 + UEBA）自动识别安全威胁。
-=======
 # Security Log Analyzer
 
 专业的网络安全日志分析工具，支持 Windows (.evtx) 和 Linux (syslog) 格式，采用混合检测策略（静态规则 + 动态基线建模 + UEBA）自动识别安全威胁。
+<img width="1332" height="450" alt="image" src="https://github.com/user-attachments/assets/936b3241-d937-4a86-80da-9cf46214b747" />
+<img width="1530" height="861" alt="image" src="https://github.com/user-attachments/assets/c7cb2848-bf4e-4db2-87cc-361c91bb6fe2" />
+<img width="1779" height="996" alt="image" src="https://github.com/user-attachments/assets/59245cf8-67bb-4c62-8dd4-2e8fc16c8e0e" />
 
 ## ✨ 核心功能
 
@@ -106,4 +105,3 @@ SystemUserLog/
 2. **解析策略**：不同windos版本日志内容不一样，程序会先测试前50条记录，如果解析失败率超过50%会自动切换方法，所有方法都失败会立即中止
 3. **性能**：处理大型日志文件时注意系统内存使用
 4. **EVTX 事件**：主要解析 Windows 安全事件（4624, 4625, 4672, 4648, 4768, 4769, 4776, 4728, 4732, 4798 等）
->>>>>>> f686ed8 (local project)
