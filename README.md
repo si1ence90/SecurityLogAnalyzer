@@ -1,7 +1,7 @@
 # Security Log Analyzer
 
 专业的网络安全日志分析工具，支持 Windows (.evtx) 和 Linux (syslog) 格式，采用混合检测策略（静态规则 + 动态基线建模 + UEBA）自动识别安全威胁。
-<img width="1332" height="450" alt="image" src="https://github.com/user-attachments/assets/936b3241-d937-4a86-80da-9cf46214b747" />
+
 <img width="1530" height="861" alt="image" src="https://github.com/user-attachments/assets/c7cb2848-bf4e-4db2-87cc-361c91bb6fe2" />
 <img width="1779" height="996" alt="image" src="https://github.com/user-attachments/assets/59245cf8-67bb-4c62-8dd4-2e8fc16c8e0e" />
 
